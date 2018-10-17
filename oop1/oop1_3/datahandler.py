@@ -69,7 +69,7 @@ class DataHandler:
         print('*' * 50)
         print('{}반 성적 분석 결과'.format(self.year_class))
         print(
-        "{0}반의 평균은 {1}점이고 분산은 {2}이며 따라서 표준편차는 {3}이다."format(
+        "{0}반의 평균은 {1}점이고 분산은 {2}이며 따라서 표준편차는 {3}이다.".format(
             self.year_class,
             self.get_average(),
             self.get_variance(),
