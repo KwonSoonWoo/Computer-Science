@@ -2,7 +2,7 @@ class Animal:
     def eat(self):
         print('eat something')
 
-class Lion:
+class Lion(Animal):
     def eat(self):
         print('eat meat')
 
